@@ -110,6 +110,10 @@ header h1 {
     margin-bottom: 35px;
 }
 
+.repo {
+    margin-bottom: 35px;
+}
+
 /* show more */
 #more,
 #more-1 {
@@ -357,7 +361,7 @@ button.more:hover {
 
 /* name */
 .name {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     margin-top: 10px;
     color: #333;
@@ -410,3 +414,43 @@ button.more:hover {
 .link:hover {
     color: #ff5360;
 }
+
+/* ===FOOTER=== */
+.footer {
+    background-color: rgb(122, 201, 247);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 1em;
+    padding: 2rem 0;
+  }
+  
+  .footer__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer__social {
+    margin-bottom: 10px;
+  }
+  
+  .footer__icon,
+  .bx {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 10px;
+  }
+
+  .bx a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.6em;
+  }
+
+  .bx a:hover {
+    color: #ff5360;
+  }
+  
+  .footer__copy {
+    font-size: 0.8rem;
+  }
