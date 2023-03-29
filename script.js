@@ -21,6 +21,22 @@ readMoreLink.addEventListener("click", (e) => {
   }
 });
 
+// Readmore on Features
+const moreContent0 = document.getElementById('more-0');
+const readMoreLink0 = document.getElementById('read-more-0')
+
+readMoreLink0.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  if (moreContent0.style.display === "none") {
+    moreContent0.style.display = "block";
+    readMoreLink0.textContent = "Read less";
+  } else {
+    moreContent0.style.display = "none";
+    readMoreLink0.textContent = "Read more"
+  }
+});
+
 // Readmore on About
 const moreContent1 = document.getElementById('more-1');
 const readMoreLink1 = document.getElementById('read-more-1')
